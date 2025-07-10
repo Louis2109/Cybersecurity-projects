@@ -30,26 +30,6 @@ Note :
 Pour un blocage réel des paquets, il est nécessaire d'intégrer ce script avec des outils système adaptés à votre OS.
 """
 
-# ###### Guide moi à implementer les étapes
-# Étape 3 : Menu interactif
-# Proposer un menu pour :
-# Ajouter une règle
-# Supprimer une règle
-# Lister les règles
-# Quitter
-
-# Étape 4 : (Avancé) Blocage réel
-# Pour un vrai blocage, intégrer des commandes système :
-# Sous Linux : utiliser iptables via os.system() ou subprocess.
-# Sous Windows : utiliser netsh ou le pare-feu Windows.
-
-# Étape 5 : Filtrage avancé
-# Ajouter le support UDP/ICMP.
-# Permettre le filtrage par plage d’IP ou sous-réseau.
-
-
-
-
 
 
 from scapy.all import sniff, IP, TCP
@@ -88,7 +68,6 @@ def packet_filter(pkt):
             action = "ALLOW"
 
         log_msg = f"{time.strftime('%Y-%m-%d %H:%M:%S')} - {action}: {src_ip}:{src_port} -> {dst_ip}:{dst_port}"
-        print(log_msg)
         log_event(log_msg)
 
         # To actually block, you would drop the packet here (requires OS integration)
@@ -118,26 +97,78 @@ def show_open_ports_and_processes():
         print(f"Port {port} (IP {ip}) ouvert par {proc_name} (PID {pid})")
     print()
 
-def prompt_block_rule():
-    print("\nVoulez-vous bloquer un port ou une IP ?")
-    print("Tapez 'port' pour bloquer un port, 'ip' pour bloquer une IP, ou 'non' pour continuer.")
-    choix = input("Votre choix : ").strip().lower()
-    if choix == "port":
-        port = input("Numéro du port à bloquer : ").strip()
+def list_rules():
+    print("\n--- Règles Actuelles ---")
+    print("IPs Bloquées  :", sorted(list(BLOCKED_IPS)))
+    print("Ports Bloqués :", sorted(list(BLOCKED_PORTS)))
+    print("IPs Autorisées:", sorted(list(ALLOWED_IPS)))
+    print("Ports Autorisés:", sorted(list(ALLOWED_PORTS)))
+    print("-----------------------\n")
+    print("#############    Le firewall est lancé.....    ############ \n## Aller dans le fichier firewall.log pour voir les événements. \n## Appuyez sur Ctrl+C pour arrêter.")
+    
+
+def add_rule():
+    rule_type = input("Type de règle (block/allow): ").strip().lower()
+    if rule_type not in ['block', 'allow']:
+        print("Type invalide. Choisissez 'block' ou 'allow'.")
+        return
+
+    target_type = input("Cible de la règle (ip/port): ").strip().lower()
+    if target_type not in ['ip', 'port']:
+        print("Cible invalide. Choisissez 'ip' ou 'port'.")
+        return
+
+    value = input(f"Entrez l'{'adresse IP' if target_type == 'ip' else 'numéro de port'} à {rule_type}: ").strip()
+
+    if target_type == 'port':
         try:
-            port = int(port)
-            BLOCKED_PORTS.add(port)
-            save_rules()
-            print(f"Port {port} ajouté à la liste des ports bloqués.")
+            value = int(value)
         except ValueError:
-            print("Numéro de port invalide.")
-    elif choix == "ip":
-        ip = input("Adresse IP à bloquer : ").strip()
-        BLOCKED_IPS.add(ip)
+            print("Erreur: Le numéro de port doit être un entier.")
+            return
+
+    target_set = None
+    if rule_type == 'block':
+        target_set = BLOCKED_IPS if target_type == 'ip' else BLOCKED_PORTS
+    else: # allow
+        target_set = ALLOWED_IPS if target_type == 'ip' else ALLOWED_PORTS
+
+    target_set.add(value)
+    save_rules()
+    print(f"Règle ajoutée: {rule_type.upper()} {target_type.upper()} {value}")
+
+def remove_rule():
+    rule_type = input("Type de règle à supprimer (block/allow): ").strip().lower()
+    if rule_type not in ['block', 'allow']:
+        print("Type invalide. Choisissez 'block' ou 'allow'.")
+        return
+
+    target_type = input("Cible de la règle à supprimer (ip/port): ").strip().lower()
+    if target_type not in ['ip', 'port']:
+        print("Cible invalide. Choisissez 'ip' ou 'port'.")
+        return
+
+    value = input(f"Entrez l'{'adresse IP' if target_type == 'ip' else 'numéro de port'} à supprimer: ").strip()
+
+    if target_type == 'port':
+        try:
+            value = int(value)
+        except ValueError:
+            print("Erreur: Le numéro de port doit être un entier.")
+            return
+
+    target_set = None
+    if rule_type == 'block':
+        target_set = BLOCKED_IPS if target_type == 'ip' else BLOCKED_PORTS
+    else: # allow
+        target_set = ALLOWED_IPS if target_type == 'ip' else ALLOWED_PORTS
+
+    if value in target_set:
+        target_set.remove(value)
         save_rules()
-        print(f"IP {ip} ajoutée à la liste des IP bloquées.")
+        print(f"Règle supprimée: {rule_type.upper()} {target_type.upper()} {value}")
     else:
-        print("Aucune règle ajoutée.")
+        print(f"Erreur: La règle '{value}' n'existe pas dans la liste.")
 
 def save_rules():
     rules = {
@@ -161,14 +192,38 @@ def load_rules():
     except FileNotFoundError:
         pass  # Fichier absent, on garde les valeurs par défaut
 
+def interactive_menu():
+    while True:
+        print("\n--- Menu du Pare-feu ---")
+        print("1. Lister les règles")
+        print("2. Ajouter une règle")
+        print("3. Supprimer une règle")
+        print("4. Lancer le pare-feu (mode surveillance)")
+        print("5. Quitter")
+        choice = input("Votre choix : ").strip()
+
+        if choice == '1':
+            list_rules()
+        elif choice == '2':
+            add_rule()
+        elif choice == '3':
+            remove_rule()
+        elif choice == '4':
+            return True # Proceed to start firewall
+        elif choice == '5':
+            return False # Exit program
+        else:
+            print("Choix invalide, veuillez réessayer.")
+
 def main():
     load_rules()
     show_open_ports_and_processes()
-    prompt_block_rule()
-    print("Starting simple firewall (monitor mode)... Press Ctrl+C to stop.")
-    print("Blocked IPs:", BLOCKED_IPS)
-    print("Blocked Ports:", BLOCKED_PORTS)
-    sniff(prn=packet_filter, store=0)
+    if interactive_menu():
+        print("\nLancement du pare-feu (mode surveillance)... Appuyez sur Ctrl+C pour arrêter.")
+        list_rules()
+        sniff(prn=packet_filter, store=0)
+    else:
+        print("Arrêt du programme.")
 
 if __name__ == "__main__":
     main()
