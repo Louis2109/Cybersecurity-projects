@@ -1,0 +1,84 @@
+"""
+Simple Intrusion Detection System (IDS)
+
+Features:
+- Monitors TCP traffic for port scans and brute-force attempts.
+- Alerts on suspicious IPs and connection patterns.
+- Logs all detected events to 'ids.log'.
+
+Dependencies:
+    pip install scapy
+
+Run as root/admin for packet sniffing.
+
+Educational/demo use only!
+"""
+
+from scapy.all import sniff, IP, TCP
+from collections import defaultdict, deque
+import time
+import threading
+
+LOG_FILE = "ids.log"
+ALERT_PORT_SCAN_THRESHOLD = 10   # Ports accessed per IP in time window
+ALERT_BRUTE_FORCE_THRESHOLD = 20 # Connections per IP in time window
+TIME_WINDOW = 10                 # Seconds
+
+connection_attempts = defaultdict(lambda: deque())
+ports_accessed = defaultdict(set)
+
+blacklisted_ips = {'192.168.1.123', '10.10.10.10'}  # Example blacklisted IPs
+
+def log_event(msg):
+    timestamp = time.strftime("%Y-%m-%d %H:%M:%S")
+    entry = f"{timestamp} - {msg}"
+    print(entry)
+    with open(LOG_FILE, "a") as f:
+        f.write(entry + "\n")
+
+def detect_intrusions(pkt):
+    if IP in pkt and TCP in pkt:
+        src_ip = pkt[IP].src
+        dst_port = pkt[TCP].dport
+        now = time.time()
+
+        # Blacklist check
+        if src_ip in blacklisted_ips:
+            log_event(f"[BLACKLISTED] Traffic from blacklisted IP: {src_ip}")
+
+        # Track ports accessed per IP (for port scan)
+        ports_accessed[src_ip].add(dst_port)
+        # Track connection attempts per IP (for brute force)
+        connection_attempts[src_ip].append(now)
+        # Remove old attempts
+        while connection_attempts[src_ip] and now - connection_attempts[src_ip][0] > TIME_WINDOW:
+            connection_attempts[src_ip].popleft()
+
+        # Detection: Port scan (many ports in short time)
+        if len(ports_accessed[src_ip]) > ALERT_PORT_SCAN_THRESHOLD:
+            log_event(f"[PORT SCAN] {src_ip} accessed {len(ports_accessed[src_ip])} ports in {TIME_WINDOW}s!")
+            # Reset to avoid repeat alerts
+            ports_accessed[src_ip].clear()
+
+        # Detection: Brute force (many connections in short time)
+        if len(connection_attempts[src_ip]) > ALERT_BRUTE_FORCE_THRESHOLD:
+            log_event(f"[BRUTE FORCE] {src_ip} made {len(connection_attempts[src_ip])} connections in {TIME_WINDOW}s!")
+            connection_attempts[src_ip].clear()
+
+def start_sniffing():
+    print("Starting IDS packet capture (Ctrl+C to stop)...")
+    sniff(prn=detect_intrusions, filter="tcp", store=0)
+
+def main():
+    print("=== Simple Intrusion Detection System ===")
+    print(f"Logging to: {LOG_FILE}")
+    threading.Thread(target=start_sniffing, daemon=True).start()
+    # Keep main thread alive
+    try:
+        while True:
+            time.sleep(1)
+    except KeyboardInterrupt:
+        print("\nStopping IDS.")
+
+if __name__ == "__main__":
+    main()

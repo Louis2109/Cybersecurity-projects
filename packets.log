@@ -1,0 +1,1192 @@
+Ether / IP / UDP / mDNS Qry b'192.168.1.143.in-addr.arpa.'
+Ether / IP / UDP / mDNS Qry b'192.168.1.143.in-addr.arpa.'
+Ether / IP / UDP / mDNS Qry b'192.168.1.139.in-addr.arpa.'
+Ether / IP / UDP / mDNS Qry b'192.168.1.139.in-addr.arpa.'
+Ether / IP / UDP / mDNS Qry b'192.168.1.1.in-addr.arpa.'
+Ether / IP / UDP / mDNS Qry b'192.168.1.1.in-addr.arpa.'
+Ether / IP / UDP 192.168.1.154:53352 > 142.250.201.170:https / Raw
+Ether / ARP who has 192.168.1.228 says 192.168.1.1
+Ether / IP / UDP 142.250.201.170:https > 192.168.1.154:53352 / Raw
+Ether / ARP who has 192.168.1.228 says 192.168.1.1
+Ether / ARP who has 192.168.1.114 says 192.168.1.1
+Ether / ARP who has 192.168.1.228 says 192.168.1.1
+Ether / IP / UDP / mDNS Qry b'DESKTOP-DD5J57E.local.'
+Ether / IP / UDP / mDNS Ans 2c0f:2a80:9bd:1f00:bd1e:aa8b:8fd2:697e
+Ether / IP / UDP 192.168.1.151:49588 > 224.0.0.252:llmnr / LLMNRQuery who has 'DESKTOP-DD5J57E.'
+Ether / IP / UDP / mDNS Qry b'_674A0243._sub._googlecast._tcp.local.'
+Ether / ARP who has 192.168.1.228 says 192.168.1.1
+Ether / IP / UDP 192.168.1.154:53352 > 142.250.201.170:https / Raw
+Ether / IP / TCP 192.168.1.154:50302 > 102.132.101.60:5222 PA / Raw
+Ether / IP / UDP 142.250.201.170:https > 192.168.1.154:53352 / Raw
+Ether / IP / TCP 102.132.101.60:5222 > 192.168.1.154:50302 A
+Ether / IP / TCP 102.132.101.60:5222 > 192.168.1.154:50302 PA / Raw
+Ether / IP / TCP 192.168.1.154:50302 > 102.132.101.60:5222 A
+Ether / IP / UDP 192.168.1.89:49739 > 224.0.0.252:llmnr / LLMNRQuery who has 'salon.'
+Ether / IP / UDP / mDNS Qry b'DESKTOP-1NRBB35.local.'
+Ether / IP / UDP 192.168.1.188:51841 > 224.0.0.252:llmnr / LLMNRQuery who has 'DESKTOP-1NRBB35.'
+Ether / IP / UDP 192.168.1.89:49739 > 224.0.0.252:llmnr / LLMNRQuery who has 'salon.'
+Ether / ARP who has 192.168.1.114 says 192.168.1.1
+Ether / IP / UDP 192.168.1.89:52038 > 239.255.255.250:ssdp / Raw
+Ether / IP / UDP / NBNSHeader / NBNSQueryRequest who has '\\WPAD'
+Ether / IP / UDP / mDNS Qry b'wpad.local.'
+Ether / IP / UDP / mDNS Qry b'wpad.local.'
+Ether / IP / UDP 192.168.1.188:51096 > 224.0.0.252:llmnr / LLMNRQuery who has 'wpad.'
+Ether / IP / UDP 192.168.1.188:63019 > 224.0.0.252:llmnr / LLMNRQuery who has 'wpad.'
+Ether / IP / UDP 192.168.1.188:51841 > 224.0.0.252:llmnr / LLMNRQuery who has 'DESKTOP-1NRBB35.'
+Ether / IP / UDP 192.168.1.188:63019 > 224.0.0.252:llmnr / LLMNRQuery who has 'wpad.'
+Ether / IP / UDP 192.168.1.188:51096 > 224.0.0.252:llmnr / LLMNRQuery who has 'wpad.'
+Ether / IP / UDP / mDNS Qry b'DESKTOP-1NRBB35.local.'
+Ether / IP / UDP / NBNSHeader / NBNSQueryRequest who has '\\WPAD'
+Ether / IP / UDP / mDNS Ans fd53:c04f:f4df:10:55a3:da74:6248:66d8
+Ether / ARP who has 192.168.1.228 says 192.168.1.1
+Ether / IP / UDP / mDNS Qry b'DESKTOP-1NRBB35.local.'
+Ether / IP / UDP / mDNS Ans fd53:c04f:f4df:10:55a3:da74:6248:66d8
+Ether / IP / UDP 192.168.1.188:49964 > 224.0.0.252:llmnr / LLMNRQuery who has 'DESKTOP-1NRBB35.'
+Ether / ARP who has 192.168.1.114 says 192.168.1.1
+Ether / IP / UDP / mDNS Qry b'wpad.local.'
+Ether / IP / UDP / mDNS Qry b'wpad.local.'
+Ether / IP / TCP 192.168.1.154:52674 > 20.42.73.24:https FA
+Ether / IP / UDP / NBNSHeader / NBNSQueryRequest who has '\\WPAD'
+Ether / IP / TCP 20.42.73.24:https > 192.168.1.154:52674 FA
+Ether / IP / TCP 192.168.1.154:52674 > 20.42.73.24:https A
+Ether / ARP who has 192.168.1.228 says 192.168.1.1
+Ether / IP / TCP 192.168.1.154:50733 > 3.143.58.26:https PA / Raw
+Ether / ARP who has 192.168.1.143 says 192.168.1.1
+Ether / IP / TCP 3.143.58.26:https > 192.168.1.154:50733 PA / Raw
+Ether / IP / TCP 192.168.1.154:50733 > 3.143.58.26:https A
+Ether / ARP who has 192.168.1.228 says 192.168.1.1
+Ether / IP / UDP / NBNSHeader / NBNSQueryRequest who has '\\WPAD'
+Ether / IP / UDP / mDNS Qry b'wpad.local.'
+Ether / IP / UDP / mDNS Qry b'wpad.local.'
+Ether / IP / UDP 192.168.1.188:61778 > 224.0.0.252:llmnr / LLMNRQuery who has 'wpad.'
+Ether / IP / UDP 192.168.1.188:50462 > 224.0.0.252:llmnr / LLMNRQuery who has 'wpad.'
+Ether / IP / UDP 192.168.1.40:57621 > 192.168.1.255:57621 / Raw
+Ether / IP / UDP 192.168.1.89:52038 > 239.255.255.250:ssdp / Raw
+Ether / IP / UDP 192.168.1.188:50462 > 224.0.0.252:llmnr / LLMNRQuery who has 'wpad.'
+Ether / IP / UDP 192.168.1.188:61778 > 224.0.0.252:llmnr / LLMNRQuery who has 'wpad.'
+Ether / IP / UDP / NBNSHeader / NBNSQueryRequest who has '\\WPAD'
+Ether / IP / UDP / mDNS Qry b'wpad.local.'
+Ether / IP / UDP / mDNS Qry b'wpad.local.'
+Ether / IP / TCP 192.168.1.154:50735 > 3.143.58.26:https PA / Raw
+Ether / ARP who has 192.168.1.228 says 192.168.1.1
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / UDP / DNS Qry b'mobile.events.data.microsoft.com.'
+Ether / IP / UDP / DNS Ans b'mobile.events.data.trafficmanager.net.'
+Ether / IP / TCP 192.168.1.154:52698 > 13.89.179.9:https S
+Ether / IP / TCP 3.143.58.26:https > 192.168.1.154:50735 PA / Raw
+Ether / IP / TCP 192.168.1.154:50735 > 3.143.58.26:https A
+Ether / IP / UDP / NBNSHeader / NBNSQueryRequest who has '\\WPAD'
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 13.89.179.9:https > 192.168.1.154:52698 SA
+Ether / IP / TCP 192.168.1.154:52698 > 13.89.179.9:https A
+Ether / IP / TCP 192.168.1.154:52698 > 13.89.179.9:https PA / Raw
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 PA / Raw
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 PA / Raw
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A
+Ether / IP / TCP 13.89.179.9:https > 192.168.1.154:52698 PA / Raw
+Ether / IP / TCP 192.168.1.154:52698 > 13.89.179.9:https PA / Raw
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 PA / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / TCP 13.89.179.9:https > 192.168.1.154:52698 A / Raw
+Ether / IP / TCP 13.89.179.9:https > 192.168.1.154:52698 A / Raw
+Ether / IP / TCP 13.89.179.9:https > 192.168.1.154:52698 A / Raw
+Ether / IP / TCP 13.89.179.9:https > 192.168.1.154:52698 PA / Raw
+Ether / IP / TCP 192.168.1.154:52698 > 13.89.179.9:https A
+Ether / IP / TCP 192.168.1.154:52698 > 13.89.179.9:https A / Raw
+Ether / IP / TCP 192.168.1.154:52698 > 13.89.179.9:https A / Raw
+Ether / IP / TCP 192.168.1.154:52698 > 13.89.179.9:https PA / Raw
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / ARP who has 192.168.1.228 says 192.168.1.1
+Ether / IP / UDP / mDNS Qry b'192.168.1.143.in-addr.arpa.'
+Ether / IP / UDP / mDNS Qry b'192.168.1.1.in-addr.arpa.'
+Ether / IP / TCP 13.89.179.9:https > 192.168.1.154:52698 PA / Raw
+Ether / IP / TCP 13.89.179.9:https > 192.168.1.154:52698 FPA / Raw
+Ether / IP / TCP 192.168.1.154:52698 > 13.89.179.9:https A
+Ether / IP / TCP 192.168.1.154:52698 > 13.89.179.9:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52698 > 13.89.179.9:https FA
+Ether / ARP who has 192.168.1.1 says 192.168.1.130 / Padding
+Ether / IP / UDP 192.168.1.154:53352 > 142.250.201.170:https / Raw
+Ether / IP / TCP 102.132.104.60:https > 192.168.1.154:52672 PA / Raw
+Ether / IP / TCP 192.168.1.154:52672 > 102.132.104.60:https A
+Ether / IP / TCP 13.89.179.9:https > 192.168.1.154:52698 A
+Ether / IP / UDP 142.250.201.170:https > 192.168.1.154:53352 / Raw
+Ether / IP / TCP 3.208.60.61:https > 192.168.1.154:52431 PA / Raw
+Ether / IP / TCP 192.168.1.154:52431 > 3.208.60.61:https PA / Raw
+Ether / ARP who has 192.168.1.228 says 192.168.1.1
+Ether / IP / TCP 3.208.60.61:https > 192.168.1.154:52431 A
+Ether / IP / UDP 192.168.1.89:52038 > 239.255.255.250:ssdp / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 PA / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 PA / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A
+Ether / IP / TCP 192.168.1.154:52670 > 184.28.84.32:https FA
+Ether / IP / TCP 184.28.84.32:https > 192.168.1.154:52670 PA / Raw
+Ether / IP / TCP 184.28.84.32:https > 192.168.1.154:52670 FA
+Ether / IP / TCP 192.168.1.154:52670 > 184.28.84.32:https RA
+Ether / IP / TCP 192.168.1.154:51906 > 98.66.133.185:https PA / Raw
+Ether / IP / TCP 98.66.133.185:https > 192.168.1.154:51906 PA / Raw
+Ether / IP / TCP 192.168.1.154:51906 > 98.66.133.185:https A
+Ether / IP / UDP / NBNSHeader / NBNSQueryRequest who has '\\WPAD'
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / UDP / mDNS Qry b'wpad.local.'
+Ether / IP / UDP 192.168.1.188:52874 > 224.0.0.252:llmnr / LLMNRQuery who has 'wpad.'
+Ether / IP / UDP / DNS Qry b'api.msn.com.'
+Ether / IP / UDP 192.168.1.188:59124 > 224.0.0.252:llmnr / LLMNRQuery who has 'wpad.'
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / UDP / DNS Ans b'api-msn-com-oneservice-world-default.trafficmanager.net.'
+Ether / IP / TCP 192.168.1.154:52699 > 150.171.28.12:https S
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 PA / Raw
+Ether / IP / TCP 150.171.28.12:https > 192.168.1.154:52699 SA
+Ether / IP / TCP 192.168.1.154:52699 > 150.171.28.12:https A
+Ether / IP / TCP 192.168.1.154:52699 > 150.171.28.12:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A
+Ether / IP / TCP 150.171.28.12:https > 192.168.1.154:52699 A
+Ether / IP / TCP 150.171.28.12:https > 192.168.1.154:52699 A / Raw
+Ether / IP / TCP 192.168.1.154:52699 > 150.171.28.12:https A
+Ether / IP / TCP 150.171.28.12:https > 192.168.1.154:52699 A / Raw
+Ether / IP / TCP 150.171.28.12:https > 192.168.1.154:52699 A / Raw
+Ether / IP / TCP 192.168.1.154:52699 > 150.171.28.12:https A
+Ether / IP / TCP 150.171.28.12:https > 192.168.1.154:52699 A / Raw
+Ether / IP / TCP 150.171.28.12:https > 192.168.1.154:52699 PA / Raw
+Ether / IP / TCP 192.168.1.154:52699 > 150.171.28.12:https A
+Ether / IP / TCP 192.168.1.154:52699 > 150.171.28.12:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52699 > 150.171.28.12:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52699 > 150.171.28.12:https A / Raw
+Ether / IP / TCP 192.168.1.154:52699 > 150.171.28.12:https A / Raw
+Ether / IP / TCP 192.168.1.154:52699 > 150.171.28.12:https A / Raw
+Ether / IP / TCP 192.168.1.154:52699 > 150.171.28.12:https A / Raw
+Ether / IP / TCP 192.168.1.154:52699 > 150.171.28.12:https PA / Raw
+Ether / IP / TCP 150.171.28.12:https > 192.168.1.154:52699 A
+Ether / IP / TCP 150.171.28.12:https > 192.168.1.154:52699 PA / Raw
+Ether / IP / TCP 150.171.28.12:https > 192.168.1.154:52699 PA / Raw
+Ether / IP / TCP 150.171.28.12:https > 192.168.1.154:52699 A
+Ether / IP / TCP 192.168.1.154:52699 > 150.171.28.12:https A
+Ether / IP / TCP 192.168.1.154:52699 > 150.171.28.12:https PA / Raw
+Ether / IP / TCP 150.171.28.12:https > 192.168.1.154:52699 PA / Raw
+Ether / IP / TCP 192.168.1.154:52699 > 150.171.28.12:https A
+Ether / IP / TCP 150.171.28.12:https > 192.168.1.154:52699 A
+Ether / IP / TCP 150.171.28.12:https > 192.168.1.154:52699 A
+Ether / IP / TCP 150.171.28.12:https > 192.168.1.154:52699 A
+Ether / IP / TCP 150.171.28.12:https > 192.168.1.154:52699 A
+Ether / IP / TCP 150.171.28.12:https > 192.168.1.154:52699 A
+Ether / IP / TCP 192.168.1.154:50302 > 102.132.101.60:5222 PA / Raw
+Ether / IP / UDP 192.168.1.188:59124 > 224.0.0.252:llmnr / LLMNRQuery who has 'wpad.'
+Ether / IP / UDP 192.168.1.188:52874 > 224.0.0.252:llmnr / LLMNRQuery who has 'wpad.'
+Ether / ARP who has 192.168.1.228 says 192.168.1.1
+Ether / IP / TCP 102.132.101.60:5222 > 192.168.1.154:50302 A
+Ether / IP / TCP 102.132.101.60:5222 > 192.168.1.154:50302 PA / Raw
+Ether / IP / TCP 192.168.1.154:50302 > 102.132.101.60:5222 A
+Ether / IP / TCP 150.171.28.12:https > 192.168.1.154:52699 A / Raw
+Ether / IP / TCP 192.168.1.154:52699 > 150.171.28.12:https A
+Ether / IP / TCP 150.171.28.12:https > 192.168.1.154:52699 A / Raw
+Ether / IP / TCP 150.171.28.12:https > 192.168.1.154:52699 PA / Raw
+Ether / IP / TCP 150.171.28.12:https > 192.168.1.154:52699 PA / Raw
+Ether / IP / TCP 150.171.28.12:https > 192.168.1.154:52699 A / Raw
+Ether / IP / TCP 150.171.28.12:https > 192.168.1.154:52699 A / Raw
+Ether / IP / TCP 150.171.28.12:https > 192.168.1.154:52699 PA / Raw
+Ether / IP / TCP 150.171.28.12:https > 192.168.1.154:52699 A / Raw
+Ether / IP / TCP 150.171.28.12:https > 192.168.1.154:52699 A / Raw
+Ether / IP / TCP 150.171.28.12:https > 192.168.1.154:52699 PA / Raw
+Ether / IP / TCP 150.171.28.12:https > 192.168.1.154:52699 PA / Raw
+Ether / IP / TCP 150.171.28.12:https > 192.168.1.154:52699 PA / Raw
+Ether / IP / TCP 150.171.28.12:https > 192.168.1.154:52699 A / Raw
+Ether / IP / TCP 150.171.28.12:https > 192.168.1.154:52699 A / Raw
+Ether / IP / TCP 150.171.28.12:https > 192.168.1.154:52699 PA / Raw
+Ether / IP / TCP 150.171.28.12:https > 192.168.1.154:52699 PA / Raw
+Ether / IP / TCP 150.171.28.12:https > 192.168.1.154:52699 A / Raw
+Ether / IP / TCP 150.171.28.12:https > 192.168.1.154:52699 A / Raw
+Ether / IP / TCP 150.171.28.12:https > 192.168.1.154:52699 PA / Raw
+Ether / IP / TCP 150.171.28.12:https > 192.168.1.154:52699 PA / Raw
+Ether / IP / TCP 192.168.1.154:52699 > 150.171.28.12:https A
+Ether / IP / TCP 150.171.28.12:https > 192.168.1.154:52699 PA / Raw
+Ether / IP / TCP 192.168.1.154:52699 > 150.171.28.12:https A
+Ether / IP / UDP 192.168.1.154:57213 > 2.17.161.49:https / Raw
+Ether / IP / UDP 192.168.1.154:57213 > 2.17.161.49:https / Raw
+Ether / 0.0.0.0 > 224.0.0.1 2 / Raw
+Ether / IP / UDP / mDNS Qry b'DESKTOP-DD5J57E.local.'
+Ether / IP / UDP / mDNS Ans 2c0f:2a80:9bd:1f00:bd1e:aa8b:8fd2:697e
+Ether / IP / UDP 192.168.1.151:57780 > 224.0.0.252:llmnr / LLMNRQuery who has 'DESKTOP-DD5J57E.'
+Ether / IP / UDP / mDNS Qry b'DESKTOP-DD5J57E.local.'
+Ether / IP / TCP 102.132.104.60:https > 192.168.1.154:52672 PA / Raw
+Ether / IP / TCP 102.132.104.60:https > 192.168.1.154:52672 FA
+Ether / IP / TCP 192.168.1.154:52672 > 102.132.104.60:https A
+Ether / IP / UDP / mDNS Ans 2c0f:2a80:9bd:1f00:bd1e:aa8b:8fd2:697e
+Ether / IP / UDP 192.168.1.151:60168 > 224.0.0.252:llmnr / LLMNRQuery who has 'DESKTOP-DD5J57E.'
+Ether / IP / UDP / NBNSHeader / NBNSQueryRequest who has '\\WPAD'
+Ether / ARP who has 192.168.1.228 says 192.168.1.1
+Ether / IP / UDP 142.250.201.170:https > 192.168.1.154:53352 / Raw
+Ether / IP / UDP 142.250.201.170:https > 192.168.1.154:53352 / Raw
+Ether / IP / UDP 192.168.1.154:53352 > 142.250.201.170:https / Raw
+Ether / IP / UDP / mDNS Qry b'DESKTOP-DD5J57E.local.'
+Ether / IP / UDP / mDNS Ans 2c0f:2a80:9bd:1f00:bd1e:aa8b:8fd2:697e
+Ether / 192.168.1.154 > 239.255.255.250 2 / Raw
+Ether / IP / UDP 192.168.1.151:52759 > 224.0.0.252:llmnr / LLMNRQuery who has 'DESKTOP-DD5J57E.'
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / UDP / mDNS Qry b'DESKTOP-DD5J57E.local.'
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / UDP / mDNS Ans 2c0f:2a80:9bd:1f00:bd1e:aa8b:8fd2:697e
+Ether / IP / UDP 192.168.1.151:62576 > 224.0.0.252:llmnr / LLMNRQuery who has 'DESKTOP-DD5J57E.'
+Ether / IP / UDP / DNS Qry b'signaler-pa.clients6.google.com.'
+Ether / IP / UDP / DNS Qry b'signaler-pa.clients6.google.com.'
+Ether / IP / UDP / DNS Ans
+Ether / IP / UDP / DNS Ans 142.250.178.138
+Ether / IP / UDP 192.168.1.154:64127 > 142.250.178.138:https / Raw
+Ether / IP / UDP 192.168.1.154:64127 > 142.250.178.138:https / Raw
+Ether / IP / UDP 192.168.1.154:64127 > 142.250.178.138:https / Raw
+Ether / IP / UDP 192.168.1.154:64127 > 142.250.178.138:https / Raw
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 PA / Raw
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A
+Ether / IP / UDP 142.250.178.138:https > 192.168.1.154:64127 / Raw
+Ether / IP / UDP 142.250.178.138:https > 192.168.1.154:64127 / Raw
+Ether / IP / UDP 142.250.178.138:https > 192.168.1.154:64127 / Raw
+Ether / IP / UDP 142.250.178.138:https > 192.168.1.154:64127 / Raw
+Ether / IP / UDP 142.250.178.138:https > 192.168.1.154:64127 / Raw
+Ether / IP / UDP 142.250.178.138:https > 192.168.1.154:64127 / Raw
+Ether / IP / UDP 142.250.178.138:https > 192.168.1.154:64127 / Raw
+Ether / IP / UDP 192.168.1.154:64127 > 142.250.178.138:https / Raw
+Ether / IP / UDP 192.168.1.154:64127 > 142.250.178.138:https / Raw
+Ether / IP / UDP 192.168.1.154:64127 > 142.250.178.138:https / Raw
+Ether / IP / UDP 142.250.178.138:https > 192.168.1.154:64127 / Raw
+Ether / IP / UDP 142.250.178.138:https > 192.168.1.154:64127 / Raw
+Ether / IP / UDP 192.168.1.154:64127 > 142.250.178.138:https / Raw
+Ether / IP / UDP 142.250.178.138:https > 192.168.1.154:64127 / Raw
+Ether / IP / UDP 142.250.178.138:https > 192.168.1.154:64127 / Raw
+Ether / IP / UDP 192.168.1.154:64127 > 142.250.178.138:https / Raw
+Ether / IP / UDP 192.168.1.154:53352 > 142.250.201.170:https / Raw
+Ether / ARP who has 192.168.1.228 says 192.168.1.1
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 PA / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / UDP 142.250.178.138:https > 192.168.1.154:64127 / Raw
+Ether / IP / UDP 142.250.201.170:https > 192.168.1.154:53352 / Raw
+Ether / IP / UDP 192.168.1.154:53352 > 142.250.201.170:https / Raw
+Ether / IP / UDP 142.250.201.170:https > 192.168.1.154:53352 / Raw
+Ether / IP / UDP 192.168.1.154:53352 > 142.250.201.170:https / Raw
+Ether / IP / TCP 102.132.101.60:5222 > 192.168.1.154:50302 A / Raw
+Ether / IP / TCP 102.132.101.60:5222 > 192.168.1.154:50302 PA / Raw
+Ether / IP / TCP 192.168.1.154:50302 > 102.132.101.60:5222 A
+Ether / IP / TCP 102.132.101.60:5222 > 192.168.1.154:50302 A / Raw
+Ether / IP / TCP 102.132.101.60:5222 > 192.168.1.154:50302 PA / Raw
+Ether / IP / TCP 192.168.1.154:50302 > 102.132.101.60:5222 A
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / UDP 142.250.201.170:https > 192.168.1.154:53352 / Raw
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 192.168.1.154:50302 > 102.132.101.60:5222 PA / Raw
+Ether / 192.168.1.154 > 224.0.0.252 2 / Raw
+Ether / IP / TCP 102.132.101.60:5222 > 192.168.1.154:50302 A
+Ether / IP / UDP 192.168.1.154:53352 > 142.250.201.170:https / Raw
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / UDP 142.250.201.170:https > 192.168.1.154:53352 / Raw
+Ether / IP / UDP / DNS Qry b'outlook.office365.com.'
+Ether / IP / UDP / DNS Ans b'mira-ooc.tm-4.office.com.'
+Ether / IP / TCP 192.168.1.154:52700 > 52.98.20.146:https S
+Ether / IP / UDP 192.168.1.154:53352 > 142.250.201.170:https / Raw
+Ether / ARP who has 192.168.1.228 says 192.168.1.1
+Ether / IP / TCP 52.98.20.146:https > 192.168.1.154:52700 SA
+Ether / IP / TCP 192.168.1.154:52700 > 52.98.20.146:https A
+Ether / IP / TCP 192.168.1.154:52700 > 52.98.20.146:https PA / Raw
+Ether / IP / UDP 142.250.201.170:https > 192.168.1.154:53352 / Raw
+Ether / IP / TCP 52.98.20.146:https > 192.168.1.154:52700 A / Raw
+Ether / IP / TCP 52.98.20.146:https > 192.168.1.154:52700 A / Raw
+Ether / IP / TCP 52.98.20.146:https > 192.168.1.154:52700 A / Raw
+Ether / IP / TCP 52.98.20.146:https > 192.168.1.154:52700 PA / Raw
+Ether / IP / TCP 192.168.1.154:52700 > 52.98.20.146:https A
+Ether / IP / TCP 192.168.1.154:52700 > 52.98.20.146:https PA / Raw
+Ether / IP / UDP / DNS Qry b'clientservices.googleapis.com.'
+Ether / IP / UDP / DNS Qry b'clientservices.googleapis.com.'
+Ether / IP / UDP / DNS Ans
+Ether / IP / UDP / DNS Ans 142.251.37.163
+Ether / IP / UDP 192.168.1.154:58624 > 142.251.37.163:https / Raw
+Ether / IP / UDP 192.168.1.154:58624 > 142.251.37.163:https / Raw
+Ether / IP / UDP 192.168.1.154:58624 > 142.251.37.163:https / Raw
+Ether / IP / UDP 192.168.1.154:58624 > 142.251.37.163:https / Raw
+Ether / IP / UDP 192.168.1.154:58624 > 142.251.37.163:https / Raw
+Ether / IP / TCP 52.98.20.146:https > 192.168.1.154:52700 PA / Raw
+Ether / IP / TCP 192.168.1.154:52700 > 52.98.20.146:https A
+Ether / IP / TCP 52.98.20.146:https > 192.168.1.154:52700 PA / Raw
+Ether / IP / TCP 192.168.1.154:52700 > 52.98.20.146:https A
+Ether / IP / TCP 192.168.1.154:52700 > 52.98.20.146:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52700 > 52.98.20.146:https A / Raw
+Ether / IP / TCP 192.168.1.154:52700 > 52.98.20.146:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52700 > 52.98.20.146:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52700 > 52.98.20.146:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52700 > 52.98.20.146:https PA / Raw
+Ether / IP / UDP 192.168.1.154:53352 > 142.250.201.170:https / Raw
+Ether / IP / TCP 52.98.20.146:https > 192.168.1.154:52700 PA / Raw
+Ether / IP / TCP 192.168.1.154:52700 > 52.98.20.146:https A
+Ether / IP / TCP 52.98.20.146:https > 192.168.1.154:52700 A
+Ether / IP / TCP 52.98.20.146:https > 192.168.1.154:52700 A
+Ether / IP / TCP 52.98.20.146:https > 192.168.1.154:52700 A
+Ether / IP / UDP 142.251.37.163:https > 192.168.1.154:58624 / Raw
+Ether / IP / UDP 142.251.37.163:https > 192.168.1.154:58624 / Raw
+Ether / IP / UDP 142.251.37.163:https > 192.168.1.154:58624 / Raw
+Ether / IP / UDP 142.251.37.163:https > 192.168.1.154:58624 / Raw
+Ether / IP / UDP 142.251.37.163:https > 192.168.1.154:58624 / Raw
+Ether / IP / UDP 142.251.37.163:https > 192.168.1.154:58624 / Raw
+Ether / IP / UDP 142.251.37.163:https > 192.168.1.154:58624 / Raw
+Ether / IP / UDP 142.251.37.163:https > 192.168.1.154:58624 / Raw
+Ether / IP / UDP 142.251.37.163:https > 192.168.1.154:58624 / Raw
+Ether / IP / UDP 192.168.1.154:58624 > 142.251.37.163:https / Raw
+Ether / IP / UDP 192.168.1.154:58624 > 142.251.37.163:https / Raw
+Ether / IP / UDP 192.168.1.154:58624 > 142.251.37.163:https / Raw
+Ether / IP / UDP 142.250.201.170:https > 192.168.1.154:53352 / Raw
+Ether / IP / UDP 142.251.37.163:https > 192.168.1.154:58624 / Raw
+Ether / IP / UDP 142.251.37.163:https > 192.168.1.154:58624 / Raw
+Ether / IP / UDP 192.168.1.154:58624 > 142.251.37.163:https / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / UDP 142.251.37.163:https > 192.168.1.154:58624 / Raw
+Ether / IP / UDP 142.251.37.163:https > 192.168.1.154:58624 / Raw
+Ether / IP / UDP 192.168.1.154:58624 > 142.251.37.163:https / Raw
+Ether / IP / TCP 192.168.1.154:52491 > 162.247.243.29:https FA
+Ether / IP / UDP / DNS Qry b'th.bing.com.'
+Ether / IP / UDP / DNS Qry b'th.bing.com.'
+Ether / IP / UDP / DNS Qry b'wpad.lan.'
+Ether / IP / UDP / DNS Ans name-error
+Ether / IP / UDP / DNS Ans b'p-th.bing.com.trafficmanager.net.'
+Ether / IP / TCP 192.168.1.154:52701 > 2.17.161.59:https S
+Ether / IP / UDP / DNS Ans b'p-th.bing.com.trafficmanager.net.'
+Ether / IP / TCP 162.247.243.29:https > 192.168.1.154:52491 A
+Ether / IP / TCP 162.247.243.29:https > 192.168.1.154:52491 PA / Raw
+Ether / IP / TCP 162.247.243.29:https > 192.168.1.154:52491 FA
+Ether / IP / TCP 192.168.1.154:52491 > 162.247.243.29:https RA
+Ether / IP / UDP 192.168.1.154:53352 > 142.250.201.170:https / Raw
+Ether / IP / UDP 142.251.37.163:https > 192.168.1.154:58624 / Raw
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / UDP 142.250.201.170:https > 192.168.1.154:53352 / Raw
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 PA / Raw
+Ether / IP / TCP 192.168.1.154:52702 > 2.17.161.59:https S
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52701 SA
+Ether / IP / TCP 192.168.1.154:52701 > 2.17.161.59:https A
+Ether / IP / TCP 192.168.1.154:52701 > 2.17.161.59:https A / Raw
+Ether / IP / TCP 192.168.1.154:52701 > 2.17.161.59:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52702 SA
+Ether / IP / TCP 192.168.1.154:52702 > 2.17.161.59:https A
+Ether / IP / TCP 192.168.1.154:52702 > 2.17.161.59:https A / Raw
+Ether / IP / TCP 192.168.1.154:52702 > 2.17.161.59:https PA / Raw
+Ether / IP / UDP 192.168.1.154:53352 > 142.250.201.170:https / Raw
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52701 A
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52701 A / Raw
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52701 PA / Raw
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52701 PA / Raw
+Ether / IP / TCP 192.168.1.154:52701 > 2.17.161.59:https A
+Ether / IP / TCP 192.168.1.154:52701 > 2.17.161.59:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52701 > 2.17.161.59:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52701 > 2.17.161.59:https PA / Raw
+Ether / IP / UDP / DNS Qry b'browser.events.data.msn.com.'
+Ether / IP / UDP / DNS Qry b'browser.events.data.msn.com.'
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 PA / Raw
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52702 A
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52702 A / Raw
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52702 PA / Raw
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52702 PA / Raw
+Ether / IP / TCP 192.168.1.154:52702 > 2.17.161.59:https A
+Ether / IP / TCP 192.168.1.154:52702 > 2.17.161.59:https PA / Raw
+Ether / ARP who has 192.168.1.228 says 192.168.1.1
+Ether / IP / UDP / DNS Ans b'global.asimov.events.data.trafficmanager.net.'
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A
+Ether / IP / UDP 142.250.201.170:https > 192.168.1.154:53352 / Raw
+Ether / IP / TCP 192.168.1.154:52703 > 20.42.73.28:https S
+Ether / IP / UDP / DNS Ans b'global.asimov.events.data.trafficmanager.net.'
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52701 A
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52701 A
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52701 A
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52701 PA / Raw
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52701 PA / Raw
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52701 PA / Raw
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52701 PA / Raw
+Ether / IP / TCP 192.168.1.154:52701 > 2.17.161.59:https A
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52701 PA / Raw
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52701 A / Raw
+Ether / IP / TCP 192.168.1.154:52701 > 2.17.161.59:https A
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52701 PA / Raw
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52701 A / Raw
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52701 PA / Raw
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52701 A / Raw
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52701 PA / Raw
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52701 A / Raw
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52701 PA / Raw
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52701 A / Raw
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52701 PA / Raw
+Ether / IP / TCP 192.168.1.154:52701 > 2.17.161.59:https A
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52701 A / Raw
+Ether / IP / TCP 192.168.1.154:52701 > 2.17.161.59:https A
+Ether / IP / TCP 192.168.1.154:52701 > 2.17.161.59:https PA / Raw
+Ether / IP / TCP 52.98.20.146:https > 192.168.1.154:52700 PA / Raw
+Ether / IP / TCP 192.168.1.154:52700 > 52.98.20.146:https A
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52702 A
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52702 PA / Raw
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52702 PA / Raw
+Ether / IP / TCP 192.168.1.154:52702 > 2.17.161.59:https A
+Ether / IP / UDP 192.168.1.154:53352 > 142.250.201.170:https / Raw
+Ether / IP / TCP 20.42.73.28:https > 192.168.1.154:52703 SA
+Ether / IP / TCP 192.168.1.154:52703 > 20.42.73.28:https A
+Ether / IP / TCP 192.168.1.154:52703 > 20.42.73.28:https A / Raw
+Ether / IP / TCP 192.168.1.154:52703 > 20.42.73.28:https PA / Raw
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52701 A / Raw
+Ether / IP / TCP 192.168.1.154:52701 > 2.17.161.59:https A
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52701 PA / Raw
+Ether / IP / TCP 192.168.1.154:52701 > 2.17.161.59:https A
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52701 A / Raw
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52701 PA / Raw
+Ether / IP / TCP 192.168.1.154:52701 > 2.17.161.59:https A
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52701 A / Raw
+Ether / IP / TCP 192.168.1.154:52701 > 2.17.161.59:https A
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52701 PA / Raw
+Ether / IP / TCP 192.168.1.154:52701 > 2.17.161.59:https A
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52701 A / Raw
+Ether / IP / TCP 192.168.1.154:52701 > 2.17.161.59:https A
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52701 PA / Raw
+Ether / IP / TCP 192.168.1.154:52701 > 2.17.161.59:https A
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52701 A / Raw
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52701 PA / Raw
+Ether / IP / TCP 192.168.1.154:52701 > 2.17.161.59:https A
+Ether / IP / TCP 192.168.1.154:52700 > 52.98.20.146:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52700 > 52.98.20.146:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52700 > 52.98.20.146:https PA / Raw
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52701 A / Raw
+Ether / IP / TCP 192.168.1.154:52701 > 2.17.161.59:https A
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52701 PA / Raw
+Ether / IP / TCP 192.168.1.154:52701 > 2.17.161.59:https A
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52701 A / Raw
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52701 PA / Raw
+Ether / IP / TCP 192.168.1.154:52701 > 2.17.161.59:https A
+Ether / IP / UDP 142.250.201.170:https > 192.168.1.154:53352 / Raw
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52701 A / Raw
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52701 PA / Raw
+Ether / IP / TCP 192.168.1.154:52701 > 2.17.161.59:https A
+Ether / IP / TCP 20.42.73.28:https > 192.168.1.154:52703 A
+Ether / IP / TCP 20.42.73.28:https > 192.168.1.154:52703 PA / Raw
+Ether / IP / TCP 192.168.1.154:52703 > 20.42.73.28:https PA / Raw
+Ether / IP / TCP 52.98.20.146:https > 192.168.1.154:52700 A
+Ether / IP / TCP 192.168.1.154:51841 > 142.251.168.188:5228 A / Raw
+Ether / IP / UDP / NBTDatagram / SMB_Header / Tran b'\\MAILSLOT\\BROWSE' HostAnnouncement for b'SALON'
+Ether / IP / TCP 20.42.73.28:https > 192.168.1.154:52703 A / Raw
+Ether / IP / TCP 20.42.73.28:https > 192.168.1.154:52703 A / Raw
+Ether / IP / TCP 20.42.73.28:https > 192.168.1.154:52703 A / Raw
+Ether / IP / TCP 192.168.1.154:52703 > 20.42.73.28:https A
+Ether / IP / TCP 20.42.73.28:https > 192.168.1.154:52703 A / Raw
+Ether / IP / TCP 20.42.73.28:https > 192.168.1.154:52703 PA / Raw
+Ether / IP / TCP 192.168.1.154:52703 > 20.42.73.28:https A
+Ether / IP / TCP 192.168.1.154:52703 > 20.42.73.28:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52703 > 20.42.73.28:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52703 > 20.42.73.28:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52703 > 20.42.73.28:https A / Raw
+Ether / IP / TCP 192.168.1.154:52703 > 20.42.73.28:https A / Raw
+Ether / IP / TCP 192.168.1.154:52703 > 20.42.73.28:https A / Raw
+Ether / IP / TCP 192.168.1.154:52703 > 20.42.73.28:https A / Raw
+Ether / IP / TCP 192.168.1.154:52703 > 20.42.73.28:https A / Raw
+Ether / IP / TCP 192.168.1.154:52703 > 20.42.73.28:https A / Raw
+Ether / IP / TCP 192.168.1.154:52703 > 20.42.73.28:https PA / Raw
+Ether / IP / TCP 142.251.168.188:5228 > 192.168.1.154:51841 A
+Ether / IP / TCP 192.168.1.154:52682 > 4.225.11.192:https A / Raw
+Ether / IP / UDP 192.168.1.154:53352 > 142.250.201.170:https / Raw
+Ether / ARP who has 192.168.1.228 says 192.168.1.1
+Ether / IP / TCP 20.42.73.28:https > 192.168.1.154:52703 A
+Ether / IP / TCP 20.42.73.28:https > 192.168.1.154:52703 A
+Ether / IP / TCP 20.42.73.28:https > 192.168.1.154:52703 A
+Ether / IP / TCP 20.42.73.28:https > 192.168.1.154:52703 A
+Ether / IP / TCP 20.42.73.28:https > 192.168.1.154:52703 A
+Ether / IP / TCP 192.168.1.154:52700 > 52.98.20.146:https RA
+Ether / IP / TCP 20.42.73.28:https > 192.168.1.154:52703 PA / Raw
+Ether / IP / TCP 20.42.73.28:https > 192.168.1.154:52703 PA / Raw
+Ether / IP / TCP 192.168.1.154:52703 > 20.42.73.28:https A
+Ether / IP / TCP 192.168.1.154:52703 > 20.42.73.28:https PA / Raw
+Ether / IP / TCP 4.225.11.192:https > 192.168.1.154:52682 A
+Ether / IP / UDP 142.250.201.170:https > 192.168.1.154:53352 / Raw
+Ether / IP / TCP 20.42.73.28:https > 192.168.1.154:52703 PA / Raw
+Ether / IP / TCP 192.168.1.154:52703 > 20.42.73.28:https A
+Ether / IP / TCP 20.42.73.28:https > 192.168.1.154:52703 A
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / UDP 192.168.1.154:53352 > 142.250.201.170:https / Raw
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / UDP / DNS Qry b'mobile.events.data.microsoft.com.'
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 PA / Raw
+Ether / IP / UDP 142.250.201.170:https > 192.168.1.154:53352 / Raw
+Ether / IP / UDP / DNS Ans b'mobile.events.data.trafficmanager.net.'
+Ether / IP / TCP 192.168.1.154:52704 > 52.178.17.233:https S
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A
+Ether / ARP who has 192.168.1.143 says 192.168.1.85 / Padding
+Ether / IP / UDP / mDNS Qry b'192.168.1.143.in-addr.arpa.'
+Ether / IP / UDP / mDNS Qry b'192.168.1.143.in-addr.arpa.'
+Ether / IP / UDP / mDNS Qry b'192.168.1.1.in-addr.arpa.'
+Ether / IP / UDP / mDNS Qry b'192.168.1.1.in-addr.arpa.'
+Ether / 192.168.1.154 > 224.0.0.251 2 / Raw
+Ether / IP / TCP 52.178.17.233:https > 192.168.1.154:52704 SA
+Ether / IP / TCP 192.168.1.154:52704 > 52.178.17.233:https A
+Ether / IP / TCP 192.168.1.154:52704 > 52.178.17.233:https PA / Raw
+Ether / IP / TCP 52.178.17.233:https > 192.168.1.154:52704 PA / Raw
+Ether / IP / TCP 192.168.1.154:52704 > 52.178.17.233:https PA / Raw
+Ether / IP / TCP 52.178.17.233:https > 192.168.1.154:52704 A / Raw
+Ether / IP / TCP 52.178.17.233:https > 192.168.1.154:52704 A / Raw
+Ether / IP / TCP 52.178.17.233:https > 192.168.1.154:52704 A / Raw
+Ether / IP / TCP 52.178.17.233:https > 192.168.1.154:52704 PA / Raw
+Ether / IP / TCP 192.168.1.154:52704 > 52.178.17.233:https A
+Ether / IP / TCP 192.168.1.154:52704 > 52.178.17.233:https A / Raw
+Ether / IP / TCP 192.168.1.154:52704 > 52.178.17.233:https A / Raw
+Ether / IP / TCP 192.168.1.154:52704 > 52.178.17.233:https A / Raw
+Ether / IP / TCP 192.168.1.154:52704 > 52.178.17.233:https PA / Raw
+Ether / IP / TCP 52.178.17.233:https > 192.168.1.154:52704 PA / Raw
+Ether / IP / TCP 52.178.17.233:https > 192.168.1.154:52704 A
+Ether / IP / TCP 52.178.17.233:https > 192.168.1.154:52704 FPA / Raw
+Ether / IP / TCP 192.168.1.154:52704 > 52.178.17.233:https A
+Ether / IP / TCP 192.168.1.154:52704 > 52.178.17.233:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52704 > 52.178.17.233:https FA
+Ether / ARP who has 192.168.1.228 says 192.168.1.1
+Ether / IP / TCP 52.178.17.233:https > 192.168.1.154:52704 A
+Ether / IP / UDP 192.168.1.154:53352 > 142.250.201.170:https / Raw
+Ether / IP / UDP / DNS Qry b'telemetry.individual.githubcopilot.com.'
+Ether / IP / UDP / DNS Ans b'copilot-telemetry-service.githubusercontent.com.'
+Ether / IP / TCP 192.168.1.154:52705 > 140.82.112.21:https S
+Ether / IP / UDP 142.250.201.170:https > 192.168.1.154:53352 / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / TCP 140.82.112.21:https > 192.168.1.154:52705 SA
+Ether / IP / TCP 192.168.1.154:52705 > 140.82.112.21:https A
+Ether / IP / TCP 192.168.1.154:52705 > 140.82.112.21:https PA / Raw
+Ether / IP / TCP 140.82.112.21:https > 192.168.1.154:52705 A / Raw
+Ether / IP / TCP 140.82.112.21:https > 192.168.1.154:52705 PA / Raw
+Ether / IP / TCP 140.82.112.21:https > 192.168.1.154:52705 PA / Raw
+Ether / IP / TCP 140.82.112.21:https > 192.168.1.154:52705 A / Raw
+Ether / IP / TCP 140.82.112.21:https > 192.168.1.154:52705 PA / Raw
+Ether / IP / TCP 192.168.1.154:52705 > 140.82.112.21:https A
+Ether / IP / TCP 192.168.1.154:52705 > 140.82.112.21:https A / Raw
+Ether / IP / TCP 192.168.1.154:52705 > 140.82.112.21:https PA / Raw
+Ether / ARP who has 192.168.1.228 says 192.168.1.1
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 PA / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / TCP 140.82.112.21:https > 192.168.1.154:52705 A
+Ether / IP / TCP 140.82.112.21:https > 192.168.1.154:52705 PA / Raw
+Ether / IP / TCP 140.82.112.21:https > 192.168.1.154:52705 PA / Raw
+Ether / IP / TCP 192.168.1.154:52705 > 140.82.112.21:https A
+Ether / ARP who has 192.168.1.189 says 192.168.1.1
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 140.82.112.21:https > 192.168.1.154:52705 PA / Raw
+Ether / IP / TCP 140.82.112.21:https > 192.168.1.154:52705 PA / Raw
+Ether / IP / TCP 140.82.112.21:https > 192.168.1.154:52705 FA
+Ether / IP / TCP 192.168.1.154:52705 > 140.82.112.21:https A
+Ether / IP / TCP 192.168.1.154:52705 > 140.82.112.21:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52705 > 140.82.112.21:https FA
+Ether / IP / TCP 140.82.112.21:https > 192.168.1.154:52705 R
+Ether / 192.168.1.104 > 224.0.0.252 2 / Raw
+Ether / IP / UDP / mDNS Qry b'DESKTOP-PTKV3T7.local.'
+Ether / IP / UDP 192.168.1.104:62517 > 224.0.0.252:llmnr / LLMNRQuery who has 'DESKTOP-PTKV3T7.'
+Ether / IP / UDP / mDNS Ans 2c0f:2a80:9bd:1f10::621
+Ether / 192.168.1.104 > 224.0.0.252 2 / Raw
+Ether / IP / UDP / mDNS Qry b'DESKTOP-PTKV3T7.local.'
+Ether / IP / UDP / mDNS Ans 2c0f:2a80:9bd:1f10::621
+Ether / IP / UDP 192.168.1.104:61141 > 224.0.0.252:llmnr / LLMNRQuery who has 'DESKTOP-PTKV3T7.'
+Ether / 192.168.1.104 > 224.0.0.252 2 / Raw
+Ether / ARP who has 192.168.1.228 says 192.168.1.1
+Ether / IP / UDP / BOOTP / DHCP Request
+Ether / ARP who has 192.168.1.189 says 192.168.1.1
+Ether / ARP who has 192.168.1.1 says 192.168.1.188
+Ether / 192.168.1.104 > 224.0.0.252 2 / Raw
+Ether / IP / UDP / mDNS Qry b'DESKTOP-PTKV3T7.local.'
+Ether / IP / UDP / mDNS Ans 2c0f:2a80:9bd:1f10::621
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / UDP 192.168.1.104:60762 > 224.0.0.252:llmnr / LLMNRQuery who has 'DESKTOP-PTKV3T7.'
+Ether / 192.168.1.104 > 224.0.0.252 2 / Raw
+Ether / 192.168.1.104 > 224.0.0.252 2 / Raw
+Ether / IP / UDP / mDNS Qry b'DESKTOP-PTKV3T7.local.'
+Ether / IP / UDP / mDNS Ans 2c0f:2a80:9bd:1f10::621
+Ether / IP / UDP 192.168.1.104:64986 > 224.0.0.252:llmnr / LLMNRQuery who has 'DESKTOP-PTKV3T7.'
+Ether / IP / UDP / mDNS Qry b'DESKTOP-1NRBB35.local.'
+Ether / IP / UDP / mDNS Ans fd53:c04f:f4df:10:55a3:da74:6248:66d8
+Ether / IP / TCP 140.82.113.22:https > 192.168.1.154:52673 PA / Raw
+Ether / IP / TCP 140.82.113.22:https > 192.168.1.154:52673 FPA / Raw
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 PA / Raw
+Ether / IP / TCP 192.168.1.154:52673 > 140.82.113.22:https A
+Ether / IP / TCP 192.168.1.154:52673 > 140.82.113.22:https FA
+Ether / IP / TCP 140.82.113.22:https > 192.168.1.154:52673 FPA / Raw
+Ether / IP / TCP 192.168.1.154:52673 > 140.82.113.22:https A
+Ether / IP / UDP 192.168.1.188:61737 > 224.0.0.252:llmnr / LLMNRQuery who has 'DESKTOP-1NRBB35.'
+Ether / 192.168.1.104 > 224.0.0.252 2 / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A
+Ether / IP / UDP / mDNS Qry b'DESKTOP-1NRBB35.local.'
+Ether / IP / UDP / mDNS Ans fd53:c04f:f4df:10:55a3:da74:6248:66d8
+Ether / IP / TCP 140.82.113.22:https > 192.168.1.154:52673 A
+Ether / IP / UDP 192.168.1.188:62952 > 224.0.0.252:llmnr / LLMNRQuery who has 'DESKTOP-1NRBB35.'
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 PA / Raw
+Ether / ARP who has 192.168.1.228 says 192.168.1.1
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A
+Ether / IP / UDP 192.168.1.188:60006 > 224.0.0.252:llmnr / LLMNRQuery who has 'DESKTOP-1NRBB35.'
+Ether / IP / UDP / mDNS Ans 2c0f:2a80:9bd:1f10:951f:ac:5357:f54c
+Ether / IP / UDP / mDNS Qry b'wpad.local.'
+Ether / IP / UDP 192.168.1.154:53352 > 142.250.201.170:https / Raw
+Ether / IP / UDP / mDNS Qry b'wpad.local.'
+Ether / IP / UDP 192.168.1.188:56611 > 224.0.0.252:llmnr / LLMNRQuery who has 'wpad.'
+Ether / IP / UDP 192.168.1.188:60345 > 224.0.0.252:llmnr / LLMNRQuery who has 'wpad.'
+Ether / IP / UDP 192.168.1.188:60345 > 224.0.0.252:llmnr / LLMNRQuery who has 'wpad.'
+Ether / IP / UDP 192.168.1.188:56611 > 224.0.0.252:llmnr / LLMNRQuery who has 'wpad.'
+Ether / IP / UDP 142.250.201.170:https > 192.168.1.154:53352 / Raw
+Ether / ARP who has 192.168.1.228 says 192.168.1.1
+Ether / IP / UDP / NBNSHeader / NBNSQueryRequest who has '\\WPAD'
+Ether / ARP who has 169.254.169.254 says 192.168.1.154
+Ether / IP / UDP / mDNS Qry b'wpad.local.'
+Ether / IP / UDP / mDNS Qry b'wpad.local.'
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / UDP / NBNSHeader / NBNSQueryRequest who has '\\WPAD'
+Ether / ARP who has 192.168.1.228 says 192.168.1.1
+Ether / ARP who has 169.254.169.254 says 192.168.1.154
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 PA / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A
+Ether / ARP who has 169.254.169.254 says 192.168.1.154
+Ether / IP / UDP / mDNS Qry b'DESKTOP-1NRBB35.local.'
+Ether / IP / UDP / mDNS Ans 2c0f:2a80:9bd:1f10:951f:ac:5357:f54c
+Ether / IP / UDP 192.168.1.188:57871 > 224.0.0.252:llmnr / LLMNRQuery who has 'DESKTOP-1NRBB35.'
+Ether / ARP who has 192.168.1.228 says 192.168.1.1
+Ether / IP / UDP / NBNSHeader / NBNSQueryRequest who has '\\WPAD'
+Ether / IP / UDP / mDNS Qry b'wpad.local.'
+Ether / IP / UDP / mDNS Qry b'wpad.local.'
+Ether / IP / UDP 192.168.1.188:56279 > 224.0.0.252:llmnr / LLMNRQuery who has 'wpad.'
+Ether / IP / UDP 192.168.1.188:50249 > 224.0.0.252:llmnr / LLMNRQuery who has 'wpad.'
+Ether / IP / UDP 192.168.1.188:56279 > 224.0.0.252:llmnr / LLMNRQuery who has 'wpad.'
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52702 PA / Raw
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52702 PA / Raw
+Ether / IP / TCP 2.17.161.59:https > 192.168.1.154:52702 FA
+Ether / IP / TCP 192.168.1.154:52702 > 2.17.161.59:https A
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / UDP / NBNSHeader / NBNSQueryRequest who has '\\WPAD'
+Ether / ARP who has 192.168.1.228 says 192.168.1.1
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 PA / Raw
+Ether / IP / UDP / DNS Qry b'ssl.gstatic.com.'
+Ether / IP / UDP / DNS Qry b'ssl.gstatic.com.'
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / UDP / DNS Ans 142.250.179.99
+Ether / IP / UDP / DNS Ans
+Ether / IP / UDP 192.168.1.154:51382 > 142.250.179.99:https / Raw
+Ether / IP / UDP 192.168.1.154:51382 > 142.250.179.99:https / Raw
+Ether / IP / UDP 192.168.1.154:51382 > 142.250.179.99:https / Raw
+Ether / IP / UDP 192.168.1.154:51382 > 142.250.179.99:https / Raw
+Ether / IP / UDP 192.168.1.154:51382 > 142.250.179.99:https / Raw
+Ether / ARP who has 192.168.1.104 says 192.168.1.1
+Ether / IP / UDP / mDNS Qry b'wpad.local.'
+Ether / IP / UDP / mDNS Qry b'wpad.local.'
+Ether / IP / UDP 142.250.179.99:https > 192.168.1.154:51382 / Raw
+Ether / IP / UDP 142.250.179.99:https > 192.168.1.154:51382 / Raw
+Ether / IP / UDP 142.250.179.99:https > 192.168.1.154:51382 / Raw
+Ether / IP / UDP 142.250.179.99:https > 192.168.1.154:51382 / Raw
+Ether / IP / UDP 142.250.179.99:https > 192.168.1.154:51382 / Raw
+Ether / IP / UDP 142.250.179.99:https > 192.168.1.154:51382 / Raw
+Ether / IP / UDP 192.168.1.154:51382 > 142.250.179.99:https / Raw
+Ether / IP / UDP 192.168.1.154:51382 > 142.250.179.99:https / Raw
+Ether / IP / UDP 142.250.179.99:https > 192.168.1.154:51382 / Raw
+Ether / IP / UDP 192.168.1.154:51382 > 142.250.179.99:https / Raw
+Ether / IP / UDP 142.250.179.99:https > 192.168.1.154:51382 / Raw
+Ether / IP / UDP 142.250.179.99:https > 192.168.1.154:51382 / Raw
+Ether / IP / UDP 142.250.179.99:https > 192.168.1.154:51382 / Raw
+Ether / IP / UDP 192.168.1.154:51382 > 142.250.179.99:https / Raw
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / UDP 142.250.179.99:https > 192.168.1.154:51382 / Raw
+Ether / IP / UDP 142.250.179.99:https > 192.168.1.154:51382 / Raw
+Ether / IP / UDP 192.168.1.154:51382 > 142.250.179.99:https / Raw
+Ether / IP / UDP / NBNSHeader / NBNSQueryRequest who has '\\WPAD'
+Ether / ARP who has 192.168.1.228 says 192.168.1.1
+Ether / IP / TCP 192.168.1.154:50302 > 102.132.101.60:5222 PA / Raw
+Ether / IP / TCP 102.132.101.60:5222 > 192.168.1.154:50302 A
+Ether / IP / TCP 102.132.101.60:5222 > 192.168.1.154:50302 PA / Raw
+Ether / IP / TCP 192.168.1.154:50302 > 102.132.101.60:5222 A
+Ether / ARP who has 192.168.1.143 says 192.168.1.85 / Padding
+Ether / IP / UDP / mDNS Qry b'192.168.1.143.in-addr.arpa.'
+Ether / IP / UDP / mDNS Qry b'192.168.1.143.in-addr.arpa.'
+Ether / IP / UDP / mDNS Qry b'192.168.1.139.in-addr.arpa.'
+Ether / IP / UDP / mDNS Qry b'192.168.1.139.in-addr.arpa.'
+Ether / IP / UDP / mDNS Qry b'192.168.1.1.in-addr.arpa.'
+Ether / IP / UDP / mDNS Qry b'192.168.1.1.in-addr.arpa.'
+Ether / ARP who has 192.168.1.228 says 192.168.1.1
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 PA / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A
+Ether / IP / UDP 192.168.1.154:53352 > 142.250.201.170:https / Raw
+Ether / ARP who has 192.168.1.228 says 192.168.1.1
+Ether / IP / UDP 142.250.201.170:https > 192.168.1.154:53352 / Raw
+Ether / ARP who has 192.168.1.228 says 192.168.1.1
+Ether / IP / TCP 192.168.1.154:52431 > 3.208.60.61:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52707 > 162.247.243.29:https S
+Ether / IP / UDP / DNS Qry b'b.6sc.co.'
+Ether / IP / UDP / DNS Qry b'b.6sc.co.'
+Ether / IP / UDP / DNS Qry b'play.google.com.'
+Ether / IP / UDP / DNS Qry b'play.google.com.'
+Ether / IP / UDP / DNS Ans
+Ether / IP / UDP / DNS Ans 142.250.75.238
+Ether / IP / UDP 192.168.1.154:57469 > 142.250.75.238:https / Raw
+Ether / IP / UDP 192.168.1.154:57469 > 142.250.75.238:https / Raw
+Ether / IP / UDP 192.168.1.154:57469 > 142.250.75.238:https / Raw
+Ether / IP / TCP 162.247.243.29:https > 192.168.1.154:52707 SA
+Ether / IP / TCP 192.168.1.154:52707 > 162.247.243.29:https A
+Ether / IP / UDP / DNS Ans b'b2.6sc.co.edgekey.net.'
+Ether / IP / TCP 192.168.1.154:52707 > 162.247.243.29:https A / Raw
+Ether / IP / TCP 192.168.1.154:52707 > 162.247.243.29:https PA / Raw
+Ether / IP / TCP 3.208.60.61:https > 192.168.1.154:52431 A
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https PA / Raw
+Ether / IP / UDP 142.250.75.238:https > 192.168.1.154:57469 / Raw
+Ether / IP / UDP 142.250.75.238:https > 192.168.1.154:57469 / Raw
+Ether / IP / UDP 142.250.75.238:https > 192.168.1.154:57469 / Raw
+Ether / IP / UDP 142.250.75.238:https > 192.168.1.154:57469 / Raw
+Ether / IP / UDP 142.250.75.238:https > 192.168.1.154:57469 / Raw
+Ether / IP / UDP 192.168.1.154:57469 > 142.250.75.238:https / Raw
+Ether / IP / UDP 192.168.1.154:57469 > 142.250.75.238:https / Raw
+Ether / IP / UDP 192.168.1.154:57469 > 142.250.75.238:https / Raw
+Ether / IP / UDP 192.168.1.154:57469 > 142.250.75.238:https / Raw
+Ether / IP / UDP 192.168.1.154:57469 > 142.250.75.238:https / Raw
+Ether / IP / UDP 142.250.75.238:https > 192.168.1.154:57469 / Raw
+Ether / IP / TCP 162.247.243.29:https > 192.168.1.154:52707 A
+Ether / IP / TCP 162.247.243.29:https > 192.168.1.154:52707 A / Raw
+Ether / IP / TCP 162.247.243.29:https > 192.168.1.154:52707 PA / Raw
+Ether / IP / TCP 192.168.1.154:52707 > 162.247.243.29:https A
+Ether / IP / TCP 192.168.1.154:52707 > 162.247.243.29:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52707 > 162.247.243.29:https PA / Raw
+Ether / IP / UDP 142.250.75.238:https > 192.168.1.154:57469 / Raw
+Ether / IP / UDP 142.250.75.238:https > 192.168.1.154:57469 / Raw
+Ether / IP / UDP 142.250.75.238:https > 192.168.1.154:57469 / Raw
+Ether / IP / UDP 142.250.75.238:https > 192.168.1.154:57469 / Raw
+Ether / IP / UDP 192.168.1.154:57469 > 142.250.75.238:https / Raw
+Ether / IP / UDP 142.250.75.238:https > 192.168.1.154:57469 / Raw
+Ether / IP / UDP 142.250.75.238:https > 192.168.1.154:57469 / Raw
+Ether / IP / UDP 192.168.1.154:57469 > 142.250.75.238:https / Raw
+Ether / IP / TCP 162.247.243.29:https > 192.168.1.154:52707 A
+Ether / IP / TCP 162.247.243.29:https > 192.168.1.154:52707 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / UDP / NBNSHeader / NBNSQueryRequest who has '\\WPAD'
+Ether / IP / UDP / mDNS Qry b'wpad.local.'
+Ether / IP / UDP / mDNS Qry b'wpad.local.'
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 A
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 PA / Raw
+Ether / IP / TCP 162.247.243.29:https > 192.168.1.154:52707 PA / Raw
+Ether / IP / TCP 162.247.243.29:https > 192.168.1.154:52707 PA / Raw
+Ether / IP / TCP 192.168.1.154:52707 > 162.247.243.29:https A
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A
+Ether / IP / UDP / DNS Ans b'b2.6sc.co.edgekey.net.'
+Ether / IP / TCP 192.168.1.154:52708 > 2.17.161.49:https S
+Ether / IP / UDP 142.250.75.238:https > 192.168.1.154:57469 / Raw
+Ether / IP / UDP 192.168.1.188:56363 > 224.0.0.252:llmnr / LLMNRQuery who has 'wpad.'
+Ether / IP / UDP 192.168.1.188:61695 > 224.0.0.252:llmnr / LLMNRQuery who has 'wpad.'
+Ether / ARP who has 192.168.1.154 says 192.168.1.1
+Ether / ARP is at 5c:51:4f:ae:9c:c3 says 192.168.1.154
+Ether / IP / TCP 2.17.161.49:https > 192.168.1.154:52708 SA
+Ether / IP / TCP 192.168.1.154:52708 > 2.17.161.49:https A
+Ether / IP / TCP 192.168.1.154:52708 > 2.17.161.49:https A / Raw
+Ether / IP / TCP 192.168.1.154:52708 > 2.17.161.49:https PA / Raw
+Ether / IP / TCP 20.189.173.17:https > 192.168.1.154:52600 PA / Raw
+Ether / IP / TCP 192.168.1.154:52600 > 20.189.173.17:https A
+Ether / ARP who has 192.168.1.228 says 192.168.1.1
+Ether / IP / UDP 192.168.1.188:61695 > 224.0.0.252:llmnr / LLMNRQuery who has 'wpad.'
+Ether / IP / UDP 192.168.1.188:56363 > 224.0.0.252:llmnr / LLMNRQuery who has 'wpad.'
+Ether / IP / TCP 2.17.161.49:https > 192.168.1.154:52708 PA / Raw
+Ether / IP / TCP 192.168.1.154:52708 > 2.17.161.49:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52708 > 2.17.161.49:https PA / Raw
+Ether / IP / TCP 192.168.1.154:52708 > 2.17.161.49:https A / Raw
+Ether / IP / TCP 192.168.1.154:52708 > 2.17.161.49:https PA / Raw
+Ether / IP / UDP / NBNSHeader / NBNSQueryRequest who has '\\WPAD'
+Ether / IP / TCP 2.17.161.49:https > 192.168.1.154:52708 A
+Ether / IP / TCP 2.17.161.49:https > 192.168.1.154:52708 A
+Ether / IP / TCP 2.17.161.49:https > 192.168.1.154:52708 PA / Raw
