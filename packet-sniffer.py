@@ -1,8 +1,9 @@
 from scapy.all import sniff
+import time
 
 def packet_callback(packet):
-    with open("packets.log", "a", encoding="utf-8") as f:
-        f.write(packet.summary() + "\n")
+    with open("sniffer.log", "a", encoding="utf-8") as f:
+        f.write(str(time.strftime("%Y-%m-%d %H:%M:%S")) + " - " + str(packet) + "\n")
 
 def main():
     print("Starting packet capture... Press Ctrl+C to stop.")

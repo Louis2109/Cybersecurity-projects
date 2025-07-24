@@ -7,6 +7,7 @@ Network Vulnerability Scanner with Telegram Reporting
 """
 
 import socket
+import platform
 import nmap # Il faut add une focntion qui va identifier les service qui tourne sur les ports.
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import telegram
@@ -31,23 +32,31 @@ COMMON_SERVICES = {
     80: "HTTP - HyperText Transfer Protocol",
     110: "POP3 - Post Office Protocol v3",
     115: "SFTP - Secure File Transfer Protocol",
+    135: "MS RPC - Microsoft Remote Procedure Call", 
+    137: "NBNS - NetBIOS Name Service",              
+    138: "NBDS - NetBIOS Datagram Service",          
+    139: "NBSS - NetBIOS Session Service",           
     143: "IMAP - Internet Message Access Protocol",
+    161: "SNMP - Simple Network Management Protocol", 
+    389: "LDAP - Lightweight Directory Access Protocol", 
     443: "HTTPS - HTTP over TLS/SSL",
     445: "SMB - Server Message Block",
+    636: "LDAPS - LDAP Secure (SSL/TLS)",             
+    1723: "PPTP - Point-to-Point Tunneling Protocol", 
+    3306: "MySQL/MariaDB Database",                   
     3389: "RDP - Remote Desktop Protocol",
-    8080: "HTTP-ALT - Alternative HTTP Port"
+    5432: "PostgreSQL Database",                      
+    5900: "VNC - Virtual Network Computing",          
+    8080: "HTTP-ALT - Alternative HTTP Port",
+    8443: "HTTPS-ALT - Alternative HTTPS Port",       
+    9000: "Node.js/Web Server (Divers)",              
+    27017: "MongoDB Database"                          
 }
 
 # Ajoutez ces fonctions au début du code
-async def get_telegram_username():
-    """Récupère le nom d'utilisateur Telegram"""
-    try:
-        bot = telegram.Bot(token=TELEGRAM_BOT_TOKEN)
-        chat = await bot.get_chat(chat_id=TELEGRAM_CHAT_ID)
-        return chat.username or "User telegram"
-    except Exception as e:
-        print(f"Erreur lors de la récupération du nom d'utilisateur Telegram: {e}")
-        return "Unknown User"
+async def get_device_name():
+    """Récupère le nom de l'appareil (hostname) qui exécute le script."""
+    return platform.node()
 
 def get_service_description(port):
     return COMMON_SERVICES.get(port, "Unknown Service")
@@ -96,7 +105,6 @@ def write_scan_log(target, open_ports, scan_start, scan_end):
         f.write(f"Network Vulnerability Scan Report\n") 
         f.write(f"{'='*50}\n\n") 
         f.write(f"Scan Details:\n") 
-        f.write(f"- Target: {target}\n") 
         f.write(f"- Date: {CURRENT_TIME}\n") 
         f.write(f"- User: {CURRENT_USER}\n") 
         f.write(f"- App: {CURRENT_APP}\n") 
@@ -117,7 +125,7 @@ async def main():
     global CURRENT_USER, CURRENT_APP, start_port, end_port
     
     # Récupérer le nom d'utilisateur Telegram
-    CURRENT_USER = await get_telegram_username()
+    CURRENT_USER = await get_device_name()
     
     print("=== Network Vulnerability Scanner with Telegram Reporting ===")
     target = input("Target IP address or hostname: ").strip()

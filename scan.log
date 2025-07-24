@@ -2,12 +2,61 @@ Network Vulnerability Scan Report
 ==================================================
 
 Scan Details:
-- App: cursa.app
-- Date: 2025-07-13 22:31:49
-- User: Louis-dev-Cyber
-- Port Range: 1-20
+- Date: 2025-07-14 13:08:47
+- User: DESKTOP-OB6J14G
+- App: braxito.com
+- Port Range: 1-50
 
-Open Ports and Services:
+Open Ports:
 --------------------------------------------------
 
-No open ports found.
+Port 1 is OPEN - Unknown Service
+Port 2 is OPEN - Unknown Service
+Port 3 is OPEN - Unknown Service
+Port 4 is OPEN - Unknown Service
+Port 5 is OPEN - Unknown Service
+Port 6 is OPEN - Unknown Service
+Port 7 is OPEN - Unknown Service
+Port 8 is OPEN - Unknown Service
+Port 9 is OPEN - Unknown Service
+Port 10 is OPEN - Unknown Service
+Port 11 is OPEN - Unknown Service
+Port 12 is OPEN - Unknown Service
+Port 13 is OPEN - Unknown Service
+Port 14 is OPEN - Unknown Service
+Port 15 is OPEN - Unknown Service
+Port 16 is OPEN - Unknown Service
+Port 17 is OPEN - Unknown Service
+Port 18 is OPEN - Unknown Service
+Port 19 is OPEN - Unknown Service
+Port 20 is OPEN - FTP-DATA - File Transfer Protocol (Data)
+Port 21 is OPEN - FTP - File Transfer Protocol
+Port 22 is OPEN - SSH - Secure Shell
+Port 23 is OPEN - Telnet - Remote Login Service
+Port 24 is OPEN - Unknown Service
+Port 25 is OPEN - SMTP - Simple Mail Transfer Protocol
+Port 26 is OPEN - Unknown Service
+Port 27 is OPEN - Unknown Service
+Port 28 is OPEN - Unknown Service
+Port 29 is OPEN - Unknown Service
+Port 30 is OPEN - Unknown Service
+Port 31 is OPEN - Unknown Service
+Port 32 is OPEN - Unknown Service
+Port 33 is OPEN - Unknown Service
+Port 34 is OPEN - Unknown Service
+Port 35 is OPEN - Unknown Service
+Port 36 is OPEN - Unknown Service
+Port 37 is OPEN - Unknown Service
+Port 38 is OPEN - Unknown Service
+Port 39 is OPEN - Unknown Service
+Port 40 is OPEN - Unknown Service
+Port 41 is OPEN - Unknown Service
+Port 42 is OPEN - Unknown Service
+Port 43 is OPEN - Unknown Service
+Port 44 is OPEN - Unknown Service
+Port 45 is OPEN - Unknown Service
+Port 46 is OPEN - Unknown Service
+Port 47 is OPEN - Unknown Service
+Port 48 is OPEN - Unknown Service
+Port 49 is OPEN - Unknown Service
+Port 50 is OPEN - Unknown Service

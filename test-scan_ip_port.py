@@ -1,51 +1,32 @@
-import nmap
+from scapy.all import sniff, IP, TCP, UDP, Raw
+import time
+from datetime import datetime
 
-def scan_services_on_ports(target_host):
-    """
-    Scanne un hôte cible pour identifier les services exécutés sur chaque port ouvert.
+def packet_callback(packet):
+    log_entry = f"{datetime.now().strftime('%Y-%m-%d %H:%M:%S')} - "
 
-    Args:
-        target_host (str): L'adresse IP ou le nom d'hôte de la cible à scanner.
-    """
-    nm = nmap.PortScanner()
+    # Exemple d'analyse des couches
+    if packet.haslayer(IP):
+        log_entry += f"Source IP: {packet[IP].src}, Dest IP: {packet[IP].dst}"
+        if packet.haslayer(TCP):
+            log_entry += f", Protocol: TCP, Source Port: {packet[TCP].sport}, Dest Port: {packet[TCP].dport}"
+            if packet[TCP].dport == 80 or packet[TCP].sport == 80:
+                log_entry += " (HTTP Traffic)"
+            elif packet[TCP].dport == 443 or packet[TCP].sport == 443:
+                log_entry += " (HTTPS Traffic)"
+        elif packet.haslayer(UDP):
+            log_entry += f", Protocol: UDP, Source Port: {packet[UDP].sport}, Dest Port: {packet[UDP].dport}"
+            if packet[UDP].dport == 53 or packet[UDP].sport == 53:
+                log_entry += " (DNS Traffic)"
 
-    try:
-        print(f"[*] Démarrage du scan de {target_host}...")
-        # Scanne tous les ports TCP courants (par défaut, Nmap en scanne 1000)
-        # '-sV' active la détection de version de service
-        nm.scan(hosts=target_host, arguments='-sV')
+        # Essayer d'extraire des données brutes si présentes
+        if packet.haslayer(Raw):
+            try:
+                payload = packet[Raw].load.decode('utf-8', errors='ignore')
+                # Ne pas logguer des payloads entiers sauf si c'est nécessaire pour éviter les logs géants
+                log_entry += f", Payload (extrait): {payload[:50]}..." 
+            except:
+                pass # Ignore les erreurs de décodage
 
-        if target_host not in nm.all_hosts():
-            print(f"[-] L'hôte {target_host} n'est pas atteignable ou aucune information n'a été trouvée.")
-            return
-
-        for host in nm.all_hosts():
-            print(f"\n[+] Résultats du scan pour l'hôte : {host} ({nm[host].hostname()})")
-            print(f"    État : {nm[host].state()}")
-
-            if 'tcp' in nm[host]:
-                print("\n    Ports TCP ouverts et services :")
-                for port in sorted(nm[host]['tcp']):
-                    port_info = nm[host]['tcp'][port]
-                    print(f"        Port : {port}")
-                    print(f"            État    : {port_info['state']}")
-                    print(f"            Service : {port_info['name']}")
-                    print(f"            Produit : {port_info['product']}")
-                    print(f"            Version : {port_info['version']}")
-                    print(f"            Extra   : {port_info['extrainfo']}")
-            else:
-                print("\n    Aucun port TCP ouvert trouvé.")
-
-    except nmap.nmap.PortScannerError as e:
-        print(f"[-] Erreur Nmap : {e}")
-        print("    Assurez-vous que Nmap est installé et que vous avez les permissions nécessaires (ex: sudo).")
-    except Exception as e:
-        print(f"[-] Une erreur inattendue s'est produite : {e}")
-
-if __name__ == "__main__":
-    # Exemple d'utilisation :
-    # Remplacez '127.0.0.1' par l'adresse IP ou le nom d'hôte que vous souhaitez scanner.
-    # Soyez conscient des lois et réglementations concernant les scans de réseau.
-    # Ne scannez que les systèmes pour lesquels vous avez l'autorisation explicite.
-    target = input("Veuillez entrer l'adresse IP ou le nom d'hôte cible : ")
-    scan_services_on_ports(target)
+    with open("sniffer.log", "a", encoding="utf-8") as f:
+        f.write(log_entry + "\n")
